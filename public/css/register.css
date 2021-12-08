@@ -1,0 +1,427 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(/fonts/Montserrat-Black.svg?0401996f2e59b4e4b6c314bb5ec9a3c0);
+  src: url(/fonts/Montserrat-ExtraBoldItalic.eot?78a2bd993261bdb1ae03dd99bb2b3c12?#iefix) format("embedded-opentype"), url(/fonts/Montserrat-ExtraBoldItalic.woff2?58a12e29f98cf74223af1907fa3c1492) format("woff2"), url(/fonts/Montserrat-ExtraBoldItalic.woff?506bc4a1b94871060f2735fc4ca9f65d) format("woff"), url(/fonts/Montserrat-ExtraBoldItalic.ttf?c6c20dcae6fec7f7d8d85897708ff0dd) format("truetype"), url(/fonts/Montserrat-ExtraBoldItalic.svg?a6508b6bbacfec391a6ee505c53455f1#Montserrat-ExtraBoldItalic) format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/fonts/Montserrat-ExtraLightItalic.eot?fca9eda6a3e13e1f92f1f6410fff0aac);
+  src: url(/fonts/Montserrat-ExtraLightItalic.eot?fca9eda6a3e13e1f92f1f6410fff0aac?#iefix) format("embedded-opentype"), url(/fonts/Montserrat-ExtraLightItalic.woff2?4a76cf9019fc26459d553be76a7527a8) format("woff2"), url(/fonts/Montserrat-ExtraLightItalic.woff?5b0c541e1805de38312388b9542371b0) format("woff"), url(/fonts/Montserrat-ExtraLightItalic.ttf?556b7c7932d5ceb9ad767ab2d13cc6a2) format("truetype"), url(/fonts/Montserrat-ExtraLightItalic.svg?754b383b3707ba095f1b203c804470d4#Montserrat-ExtraLightItalic) format("svg");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/fonts/Montserrat-MediumItalic.eot?0b27f6bf2262a35bbdc88989620338d1);
+  src: url(/fonts/Montserrat-MediumItalic.eot?0b27f6bf2262a35bbdc88989620338d1?#iefix) format("embedded-opentype"), url(/fonts/Montserrat-MediumItalic.woff2?8bd01fd0617233a136aaa7aa2c79486e) format("woff2"), url(/fonts/Montserrat-MediumItalic.woff?a7bea9fcb5d2632f2e92af838d34e264) format("woff"), url(/fonts/Montserrat-MediumItalic.ttf?65fa68908e4fae2b067addeeaf287913) format("truetype"), url(/fonts/Montserrat-MediumItalic.svg?8eea52b2131e167d9e69653ba02e6684#Montserrat-MediumItalic) format("svg");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/fonts/Montserrat-SemiBoldItalic.eot?f21bfd27f0c99f631c7620491253c116);
+  src: url(/fonts/Montserrat-SemiBoldItalic.eot?f21bfd27f0c99f631c7620491253c116?#iefix) format("embedded-opentype"), url(/fonts/Montserrat-SemiBoldItalic.woff2?d64004d0d7925e305504b2e4dd06f373) format("woff2"), url(/fonts/Montserrat-SemiBoldItalic.woff?4c64e61a9bcaa39dd44b765bdc14f86d) format("woff"), url(/fonts/Montserrat-SemiBoldItalic.ttf?4f81479dd27d841df169800f4c0d333a) format("truetype"), url(/fonts/Montserrat-SemiBoldItalic.svg?c5cb610dac299f818831b5b9c93065f2#Montserrat-SemiBoldItalic) format("svg");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/fonts/Montserrat-ExtraLight.eot?3217aeb54c497ea5ee707199948402cd);
+  src: url(/fonts/Montserrat-ExtraLight.eot?3217aeb54c497ea5ee707199948402cd?#iefix) format("embedded-opentype"), url(/fonts/Montserrat-ExtraLight.woff2?0edffe13eb3520abb61f2a292b937ec3) format("woff2"), url(/fonts/Montserrat-ExtraLight.woff?104190eff753f1f48305456d09c2f257) format("woff"), url(/fonts/Montserrat-ExtraLight.ttf?bfee205d24288c541c60104554472782) format("truetype"), url(/fonts/Montserrat-ExtraLight.svg?e60d6bd270924202290e52a6a4fcd23f#Montserrat-ExtraLight) format("svg");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/fonts/Montserrat-Italic.eot?8c95755265e103cb3f43ad753df9e45d);
+  src: url(/fonts/Montserrat-Italic.eot?8c95755265e103cb3f43ad753df9e45d?#iefix) format("embedded-opentype"), url(/fonts/Montserrat-Italic.woff2?16bc8d656c91e8a76ba91d6d97d779be) format("woff2"), url(/fonts/Montserrat-Italic.woff?3c654aa7f2065375464a440fb4b5ef42) format("woff"), url(/fonts/Montserrat-Italic.ttf?8c1bdca955e686bcf2cb6def27052632) format("truetype"), url(/fonts/Montserrat-Italic.svg?9b175df07b64dbd60810ed9c89693128#Montserrat-Italic) format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/fonts/Montserrat-LightItalic.eot?381bc0d3b73b2c12f5fc094171ed1af9);
+  src: url(/fonts/Montserrat-LightItalic.eot?381bc0d3b73b2c12f5fc094171ed1af9?#iefix) format("embedded-opentype"), url(/fonts/Montserrat-LightItalic.woff2?d6ff863dbe7be962d2cc03d97fa2de0f) format("woff2"), url(/fonts/Montserrat-LightItalic.woff?1b9a451675040ad95dd4159a03ecbf8f) format("woff"), url(/fonts/Montserrat-LightItalic.ttf?2e3148e7bf07fa5c21bb47a24718366b) format("truetype"), url(/fonts/Montserrat-LightItalic.svg?c449150e82ceca33d7a814fca40f963d#Montserrat-LightItalic) format("svg");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/fonts/Montserrat-Regular.eot?36b1f4d4c2df440f7ae7df26a385f193);
+  src: url(/fonts/Montserrat-Regular.eot?36b1f4d4c2df440f7ae7df26a385f193?#iefix) format("embedded-opentype"), url(/fonts/Montserrat-Regular.woff2?518803d3e08549d2d704d9a6643a3887) format("woff2"), url(/fonts/Montserrat-Regular.woff?498c8cdbbcd5264ad13c3d49457a0e11) format("woff"), url(/fonts/Montserrat-Regular.ttf?d4f770a49dfa69890fd4b7a3ffff3644) format("truetype"), url(/fonts/Montserrat-Regular.svg?2c3ed57ad7ecc7166b0b00d478ff32dc#Montserrat-Regular) format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/fonts/Montserrat-SemiBold.eot?417641b3c8bfcd6813f8d00868433a03);
+  src: url(/fonts/Montserrat-SemiBold.eot?417641b3c8bfcd6813f8d00868433a03?#iefix) format("embedded-opentype"), url(/fonts/Montserrat-SemiBold.woff2?53b31a44d4132debc087cf7d43aeb531) format("woff2"), url(/fonts/Montserrat-SemiBold.woff?fa5f925d970d6332a140c71977bfe890) format("woff"), url(/fonts/Montserrat-SemiBold.ttf?feb9a9ab44bccb4cc66e230d013303b2) format("truetype"), url(/fonts/Montserrat-SemiBold.svg?6e9de36dbc1caa4dddd710ca75518841#Montserrat-SemiBold) format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/fonts/Montserrat-Light.eot?8ee066d1a22a977e51624c191aacc4da);
+  src: url(/fonts/Montserrat-Light.eot?8ee066d1a22a977e51624c191aacc4da?#iefix) format("embedded-opentype"), url(/fonts/Montserrat-Light.woff2?f7bb2606b3bb239169fe7396867e840c) format("woff2"), url(/fonts/Montserrat-Light.woff?05c8ae9716360e56163fa0e86022d3c7) format("woff"), url(/fonts/Montserrat-Light.ttf?6bff27608003de04b59e89e259941e73) format("truetype"), url(/fonts/Montserrat-Light.svg?17761eb3e3585ed78350e3fe0cf3b683#Montserrat-Light) format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/fonts/Montserrat-Medium.eot?dadb1e02e7aa092579543f15341127af);
+  src: url(/fonts/Montserrat-Medium.eot?dadb1e02e7aa092579543f15341127af?#iefix) format("embedded-opentype"), url(/fonts/Montserrat-Medium.woff2?c416eeaec33891f7c0081be1acd57151) format("woff2"), url(/fonts/Montserrat-Medium.woff?1415d3efde4fddeccbca369d67f3d268) format("woff"), url(/fonts/Montserrat-Medium.ttf?b2e5fcdebc2bb4364eea92a086897d2a) format("truetype"), url(/fonts/Montserrat-Medium.svg?f0af5dc85cc7104faac07a06be9ac48a#Montserrat-Medium) format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/fonts/Montserrat-Black.eot?ca2c299f98c5cd96e7b7649771be281b);
+  src: url(/fonts/Montserrat-Black.eot?ca2c299f98c5cd96e7b7649771be281b?#iefix) format("embedded-opentype"), url(/fonts/Montserrat-Black.woff2?518c6d83e38cb791a766fefec95eb47d) format("woff2"), url(/fonts/Montserrat-Black.woff?b45e582577e958783349a6f29a184c10) format("woff"), url(/fonts/Montserrat-Black.ttf?41a74f586886634bd7b2bc5b9a571a06) format("truetype"), url(/fonts/Montserrat-Black.svg?0401996f2e59b4e4b6c314bb5ec9a3c0#Montserrat-Black) format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/fonts/Montserrat-Thin.eot?6d93363a3024c60b0ecef21a3c646375);
+  src: url(/fonts/Montserrat-Thin.eot?6d93363a3024c60b0ecef21a3c646375?#iefix) format("embedded-opentype"), url(/fonts/Montserrat-Thin.woff2?a7117a0bcff24cc12689bec73371a24c) format("woff2"), url(/fonts/Montserrat-Thin.woff?fe19c1342817e2d388d26fa3adf5421e) format("woff"), url(/fonts/Montserrat-Thin.ttf?a64795151aa7b0cf53641f8e43a6fbef) format("truetype"), url(/fonts/Montserrat-Thin.svg?706f876ea7cfc15d5272301fee31a955#Montserrat-Thin) format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/fonts/Montserrat-ThinItalic.eot?d2d5b39b73c1a804c0fec413162576b8);
+  src: url(/fonts/Montserrat-ThinItalic.eot?d2d5b39b73c1a804c0fec413162576b8?#iefix) format("embedded-opentype"), url(/fonts/Montserrat-ThinItalic.woff2?dc92a23654e3c4a3f287854c9a8442e7) format("woff2"), url(/fonts/Montserrat-ThinItalic.woff?b9dbff6a0e2fe30c7c1fccd0125f54d5) format("woff"), url(/fonts/Montserrat-ThinItalic.ttf?ef61e93fd5ee2045d2e1287768208a43) format("truetype"), url(/fonts/Montserrat-ThinItalic.svg?35dc6f60b14fa1823551dd490eb9be81#Montserrat-ThinItalic) format("svg");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/fonts/Montserrat-ExtraBold.eot?8852943da0695822ee5b8ee7a25b7898);
+  src: url(/fonts/Montserrat-ExtraBold.eot?8852943da0695822ee5b8ee7a25b7898?#iefix) format("embedded-opentype"), url(/fonts/Montserrat-ExtraBold.woff2?95c2242ba06d2eb0400546a72fc2d08d) format("woff2"), url(/fonts/Montserrat-ExtraBold.woff?666df37fdf1c78ca22ddd7e8a99f8760) format("woff"), url(/fonts/Montserrat-ExtraBold.ttf?1523a89666cba25358b0a9a892f80630) format("truetype"), url(/fonts/Montserrat-ExtraBold.svg?359d7be3713ebca64a9192ac1836a696#Montserrat-ExtraBold) format("svg");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/fonts/Montserrat-Bold.eot?78999d9664616ebc48886141b9e5cf9d);
+  src: url(/fonts/Montserrat-Bold.eot?78999d9664616ebc48886141b9e5cf9d?#iefix) format("embedded-opentype"), url(/fonts/Montserrat-Bold.woff2?dbf9cc3b5d0be686036798f4c2ed9c04) format("woff2"), url(/fonts/Montserrat-Bold.woff?0329bf8fcbfdd06caa2491b2d6a094fd) format("woff"), url(/fonts/Montserrat-Bold.ttf?cfaa6b8889aa2a3864bdf1bcc494f41c) format("truetype"), url(/fonts/Montserrat-Bold.svg?54416961eb58b95c2621ec82b366d31d#Montserrat-Bold) format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/fonts/Montserrat-BlackItalic.eot?9c020c4fa4f72cdcd8a6e831e64f2e39);
+  src: url(/fonts/Montserrat-BlackItalic.eot?9c020c4fa4f72cdcd8a6e831e64f2e39?#iefix) format("embedded-opentype"), url(/fonts/Montserrat-BlackItalic.woff2?1b46ef391bfc4c1cd3c93c6c97034699) format("woff2"), url(/fonts/Montserrat-BlackItalic.woff?11a8f9ccb449b7e2d396fdd6a03ff568) format("woff"), url(/fonts/Montserrat-BlackItalic.ttf?fa1a72144ac2d38acadc033983ed7310) format("truetype"), url(/fonts/Montserrat-BlackItalic.svg?695dbce8c329191b09f8df7c04c06669#Montserrat-BlackItalic) format("svg");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/fonts/Montserrat-BoldItalic.eot?c93e73df4057736cb40a0cfe3392973b);
+  src: url(/fonts/Montserrat-BoldItalic.eot?c93e73df4057736cb40a0cfe3392973b?#iefix) format("embedded-opentype"), url(/fonts/Montserrat-BoldItalic.woff2?ac729c1b019a2870493de8780ac56cc5) format("woff2"), url(/fonts/Montserrat-BoldItalic.woff?b547006cbe2561bcfd08ce02c5e90714) format("woff"), url(/fonts/Montserrat-BoldItalic.ttf?6b4e920f77190de84640e8ca1cef8835) format("truetype"), url(/fonts/Montserrat-BoldItalic.svg?f0d820a21a1dbca15729c8c81e809b77#Montserrat-BoldItalic) format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url(/fonts/Rubik-ExtraBold.eot?51d3859a7147b194189a284eb9145dfc);
+  src: url(/fonts/Rubik-ExtraBold.eot?51d3859a7147b194189a284eb9145dfc?#iefix) format("embedded-opentype"), url(/fonts/Rubik-ExtraBold.woff2?c5c6e5dabf81daa6b66b405c0479b1d0) format("woff2"), url(/fonts/Rubik-ExtraBold.woff?ff3d317c544c418deadf238b480a7eb5) format("woff"), url(/fonts/Rubik-ExtraBold.ttf?4101863e20a6e8ebb16a8336242123f9) format("truetype"), url(/fonts/Rubik-ExtraBold.svg?ee6b7a31ee6fd5f77cf44d031f05b8a5#Rubik-ExtraBold) format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url(/fonts/Rubik-ExtraBoldItalic.eot?babe1ff177487b394b67dd1d7f1d9550);
+  src: url(/fonts/Rubik-ExtraBoldItalic.eot?babe1ff177487b394b67dd1d7f1d9550?#iefix) format("embedded-opentype"), url(/fonts/Rubik-ExtraBoldItalic.woff2?1676686ec56b2521070c85fd55ef5e09) format("woff2"), url(/fonts/Rubik-ExtraBoldItalic.woff?58854e63a16a275567e890aaebbf8063) format("woff"), url(/fonts/Rubik-ExtraBoldItalic.ttf?056f5cda5b99f4974128008e440425b7) format("truetype"), url(/fonts/Rubik-ExtraBoldItalic.svg?bf4366b6caf46b123f80f503e2a26ffa#Rubik-ExtraBoldItalic) format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url(/fonts/Rubik-MediumItalic.eot?ed35c495103a97586325adb983448e45);
+  src: url(/fonts/Rubik-MediumItalic.eot?ed35c495103a97586325adb983448e45?#iefix) format("embedded-opentype"), url(/fonts/Rubik-MediumItalic.woff2?166f5a8d85a33e78d8ab535d36df7f03) format("woff2"), url(/fonts/Rubik-MediumItalic.woff?0fcdfe1c2d3ca793dd51483ffd81c7f7) format("woff"), url(/fonts/Rubik-MediumItalic.ttf?4785a4bd55af032fd034f20f07bdeb86) format("truetype"), url(/fonts/Rubik-MediumItalic.svg?17b0815255937c1ab411ff123658c064#Rubik-MediumItalic) format("svg");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url(/fonts/Rubik-Medium.eot?f0420aa05585ad8241552f5f24f5d0a9);
+  src: url(/fonts/Rubik-Medium.eot?f0420aa05585ad8241552f5f24f5d0a9?#iefix) format("embedded-opentype"), url(/fonts/Rubik-Medium.woff2?5f4249fee2748aa1248b882a5d00d841) format("woff2"), url(/fonts/Rubik-Medium.woff?74fded827419e30d744c1ad2b6a5f2a4) format("woff"), url(/fonts/Rubik-Medium.ttf?8e2eadb2f39fe6b7202a079906c01a3d) format("truetype"), url(/fonts/Rubik-Medium.svg?38f9cc01dbb13ce4f5669573f7ed17d2#Rubik-Medium) format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url(/fonts/Rubik-Light.eot?e750fbcd582b01df1084aa2b375bc0f2);
+  src: url(/fonts/Rubik-Light.eot?e750fbcd582b01df1084aa2b375bc0f2?#iefix) format("embedded-opentype"), url(/fonts/Rubik-Light.woff2?19357e6534661b9d99f742c4f855efb5) format("woff2"), url(/fonts/Rubik-Light.woff?dd918667d94161c47305469a51585c17) format("woff"), url(/fonts/Rubik-Light.ttf?3d8a85819aa9516a88894764729b753a) format("truetype"), url(/fonts/Rubik-Light.svg?6e05534d9b8e62edae50f0c5b1b19c25#Rubik-Light) format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url(/fonts/Rubik-Italic.eot?1b2ee9a52e6324a18652d6e567b8aef2);
+  src: url(/fonts/Rubik-Italic.eot?1b2ee9a52e6324a18652d6e567b8aef2?#iefix) format("embedded-opentype"), url(/fonts/Rubik-Italic.woff2?414cdc14fa9e2273f8d84841f5fe73a0) format("woff2"), url(/fonts/Rubik-Italic.woff?42f993ca7212e1ee7f04c817f0c29868) format("woff"), url(/fonts/Rubik-Italic.ttf?04e5655f31adcf49a754f23bc614cc99) format("truetype"), url(/fonts/Rubik-Italic.svg?2943485e9bb2cd5b751656ab06ecbe22#Rubik-Italic) format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url(/fonts/Rubik-Regular.eot?b379b3bd2528e540e416a06bfa6b7222);
+  src: url(/fonts/Rubik-Regular.eot?b379b3bd2528e540e416a06bfa6b7222?#iefix) format("embedded-opentype"), url(/fonts/Rubik-Regular.woff2?855df8a444a4c4adc91e061ff453a57f) format("woff2"), url(/fonts/Rubik-Regular.woff?882e9e0e2497f03fa8257c1b9e5d7c45) format("woff"), url(/fonts/Rubik-Regular.ttf?29463d3b7f7f145656faf306903bc177) format("truetype"), url(/fonts/Rubik-Regular.svg?531b9c352a3839fc342849dc9c1a3c7a#Rubik-Regular) format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url(/fonts/Rubik-BoldItalic.eot?1196394ea17996bdb11d886e101b6682);
+  src: url(/fonts/Rubik-BoldItalic.eot?1196394ea17996bdb11d886e101b6682?#iefix) format("embedded-opentype"), url(/fonts/Rubik-BoldItalic.woff2?5c6923686abe702b05be25631d1a7506) format("woff2"), url(/fonts/Rubik-BoldItalic.woff?9363153cdd1114391434127fea7ad486) format("woff"), url(/fonts/Rubik-BoldItalic.ttf?4de8f802c06af61ebcbfd17923b7d43b) format("truetype"), url(/fonts/Rubik-BoldItalic.svg?386eb0fc6df84a0351b64e36eafb57e9#Rubik-BoldItalic) format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url(/fonts/Rubik-LightItalic.eot?64e6a43ff8e1dc0e83c024869f42aa79);
+  src: url(/fonts/Rubik-LightItalic.eot?64e6a43ff8e1dc0e83c024869f42aa79?#iefix) format("embedded-opentype"), url(/fonts/Rubik-LightItalic.woff2?da03b1c7bafa23554ca43590f6752cee) format("woff2"), url(/fonts/Rubik-LightItalic.woff?3feb3e89ddab64ad4c3219a1fc22cdd4) format("woff"), url(/fonts/Rubik-LightItalic.ttf?20894e3a94ce3eaf452bb2f40468c686) format("truetype"), url(/fonts/Rubik-LightItalic.svg?838de8794eac41c95c5fae53b2892bb4#Rubik-LightItalic) format("svg");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url(/fonts/Rubik-Bold.eot?28198b736e002e246a53bc6f95b1450f);
+  src: url(/fonts/Rubik-Bold.eot?28198b736e002e246a53bc6f95b1450f?#iefix) format("embedded-opentype"), url(/fonts/Rubik-Bold.woff2?79cd5ccdd7a586434bbe5c8f00ad0177) format("woff2"), url(/fonts/Rubik-Bold.woff?704be18a0bc7e7537b9630a5642385cd) format("woff"), url(/fonts/Rubik-Bold.ttf?d437e92b84310c874afe34972f61cdca) format("truetype"), url(/fonts/Rubik-Bold.svg?59150403049c51579082063953124aa5#Rubik-Bold) format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url(/fonts/Rubik-Black.eot?e9c642c2113fd3d276c79ce99d24ab86);
+  src: url(/fonts/Rubik-Black.eot?e9c642c2113fd3d276c79ce99d24ab86?#iefix) format("embedded-opentype"), url(/fonts/Rubik-Black.woff2?314a52e5ef2b9c9b23e3fb26f6d82ae2) format("woff2"), url(/fonts/Rubik-Black.woff?d9706d4180c1efeffc419b4c36e3bccf) format("woff"), url(/fonts/Rubik-Black.ttf?a6ec28fd16ed92c237ab221b92ed2581) format("truetype"), url(/fonts/Rubik-Black.svg?7da452254838eaf1cabe3e7310cab85f#Rubik-Black) format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url(/fonts/Rubik-SemiBoldItalic.eot?0515ad5cae1280bb0303b45c7aa15718);
+  src: url(/fonts/Rubik-SemiBoldItalic.eot?0515ad5cae1280bb0303b45c7aa15718?#iefix) format("embedded-opentype"), url(/fonts/Rubik-SemiBoldItalic.woff2?ec685a6fcb8211c408d452ad2f5d176f) format("woff2"), url(/fonts/Rubik-SemiBoldItalic.woff?5aaeaf84f5e856f0be081208e7f4551a) format("woff"), url(/fonts/Rubik-SemiBoldItalic.ttf?bff4a9a1095d439605b087fb8e1db589) format("truetype"), url(/fonts/Rubik-SemiBoldItalic.svg?2cb5d10758cf1686b09325d6c7e5bdce#Rubik-SemiBoldItalic) format("svg");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url(/fonts/Rubik-BlackItalic.eot?13071dbc7c0791eb1c6fa9e9934db0a2);
+  src: url(/fonts/Rubik-BlackItalic.eot?13071dbc7c0791eb1c6fa9e9934db0a2?#iefix) format("embedded-opentype"), url(/fonts/Rubik-BlackItalic.woff2?c07f9d980badf3a90853eba77cd2803b) format("woff2"), url(/fonts/Rubik-BlackItalic.woff?9d114b0aa9b860d8c9d23f313d76e077) format("woff"), url(/fonts/Rubik-BlackItalic.ttf?7c9a57b20b9e0f5bb4a6453937d22992) format("truetype"), url(/fonts/Rubik-BlackItalic.svg?0321d29942012fed8d56084663a6d156#Rubik-BlackItalic) format("svg");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url(/fonts/Rubik-SemiBold.eot?58eaa740816b477f477402eaab0f288c);
+  src: url(/fonts/Rubik-SemiBold.eot?58eaa740816b477f477402eaab0f288c?#iefix) format("embedded-opentype"), url(/fonts/Rubik-SemiBold.woff2?9c329416a8d0f43a3898a84e8d7ae8c3) format("woff2"), url(/fonts/Rubik-SemiBold.woff?e9c53c58f765704d149dcc3b6c2c9fed) format("woff"), url(/fonts/Rubik-SemiBold.ttf?d4d1d7640dd8e51af2daf58d0490323a) format("truetype"), url(/fonts/Rubik-SemiBold.svg?7626109a97d6b4fe5b4b35a4653b556a#Rubik-SemiBold) format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  font-family: "Montserrat", "sans-serif";
+}
+
+.left-section {
+  width: 695px;
+  height: 100vh;
+  background-color: #8075FF;
+  border-radius: 0 0 200px 0;
+  padding-top: 90px;
+  padding-left: 200px;
+}
+.left-section .section__title {
+  color: #FAFAFA;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 39px;
+}
+.left-section .info-subblock {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 27px;
+}
+.left-section .info-subblock span {
+  width: 260px;
+  margin-left: 21px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fafafa;
+}
+.left-section .info-subblock div {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  background-color: #BFE9FF;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.left-section .info-subblock div img {
+  width: 27px;
+  height: 27px;
+}
+.left-section .info-subblock:nth-child(3) div {
+  background-color: #FF6E7F;
+}
+.left-section .info-subblock:nth-child(4) div {
+  background-color: #36C9C6;
+}
+
+.section__form {
+  width: 500px;
+  overflow: hidden;
+}
+.section__form form {
+  display: flex;
+  width: 2000px;
+}
+
+.form-section {
+  padding-top: 90px;
+  padding-left: 100px;
+}
+.form-section .section__title {
+  display: block;
+  width: 400px;
+  font-size: 36px;
+  font-weight: 800;
+  color: #41416E;
+  margin-bottom: 15px;
+}
+.form-section .section__subtitle {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.form-section .section__subtitle a {
+  color: #8075FF;
+}
+.form-section .section__error_message {
+  display: block;
+  max-width: 350px;
+  color: #ff3748;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  overflow-wrap: break-word;
+}
+.form-section .section__input {
+  display: block;
+  width: 350px;
+  height: 54px;
+  border-radius: 10px;
+  border: 2px solid #E7E7E7;
+  padding-left: 71px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+  margin-top: 18px;
+  transition: 0.6s ease;
+  background-image: url(/images/user.svg?239c7d782616c447f0416bed0863cd8d);
+  background-position: center left 20px;
+  background-repeat: no-repeat;
+}
+.form-section .section__input:focus {
+  outline: none;
+  border: 2px solid #333;
+}
+.form-section .section__input::-moz-placeholder {
+  color: #E7E7E7;
+}
+.form-section .section__input:-ms-input-placeholder {
+  color: #E7E7E7;
+}
+.form-section .section__input::placeholder {
+  color: #E7E7E7;
+}
+.form-section .section__input:nth-child(3) {
+  background-image: url(/images/mail.svg?02ed0c6972cabe78fff69af78ff76b13);
+}
+.form-section .section__input:nth-child(4), .form-section .section__input:nth-child(5) {
+  background-image: url(/images/lock.svg?753a4ba6fbbbc2f2e24fc42ec9037adc);
+}
+.form-section .section__button_submit {
+  display: block;
+  width: 350px;
+  height: 60px;
+  border-radius: 17px;
+  background-color: #8075FF;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  margin-top: 40px;
+  transition: 0.6s ease;
+}
+.form-section .section__button_submit:hover {
+  background-color: #E1BF66;
+  color: #323232;
+  cursor: pointer;
+}
+.form-section .section__button_prev {
+  display: block;
+  width: 350px;
+  height: 60px;
+  border-radius: 17px;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 18px;
+  color: #8075FF;
+  border: 2px solid #8075FF;
+  margin-top: 10px;
+  transition: 0.6s ease;
+}
+.form-section .section__button_prev:hover {
+  background-color: #8075FF;
+  color: #fff;
+  cursor: pointer;
+}
