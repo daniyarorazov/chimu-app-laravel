@@ -2,7 +2,9 @@
 
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\TestController;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -50,3 +52,5 @@ Route::name('user.')->group(function(){
 
     Route::post('/register', [RegisterController::class, "save"]);
 });
+
+Route::get('/test', [TestController::class, "showTags"]);
