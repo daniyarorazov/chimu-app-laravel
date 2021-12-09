@@ -17,6 +17,10 @@ class RegisterController extends Controller
 
             // $validateFields = $request->validate();
 
+            if (User::where('email', $request->get('email'))->exists()) {
+                redirect(route('user.register'));
+            }
+
             $user = User::create([
                 'name' => $request->get('firstname'),
                 'email' => $request->get('email'),

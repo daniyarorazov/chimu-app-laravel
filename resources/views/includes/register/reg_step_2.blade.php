@@ -1,6 +1,6 @@
 <section class="form-section">
     <h2 class="section__title">Пароль</h2>
-    <span class="section__subtitle">Уже есть аккаунт? <a href="#">Войти</a></span>
+    <span class="section__subtitle">Уже есть аккаунт? <a href="login">Войти</a></span>
     <input type="password" name="pass" class="section__input" placeholder="Пароль"/>
     <span class="section__error_message error_message_step_1" id="error_message_password"></span>
 

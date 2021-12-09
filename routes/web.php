@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -16,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('start_page');
 });
 
 //Route::get('/register', function() {
@@ -33,9 +34,12 @@ Route::name('user.')->group(function(){
         return view('login');
     })->name('login');
 
-    // Route::post('/login', [])
+     Route::post('/login', [LoginController::class, "login"]);
 
-    // Route::get('logout', [])->name('logout');
+     Route::get('logout', function() {
+          Auth::logout();
+          return redirect('/');
+     })->name('logout');
 
     Route::get('/register', function(){
         if (Auth::check()) {
