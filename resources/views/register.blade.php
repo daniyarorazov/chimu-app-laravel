@@ -5,6 +5,9 @@
 @endsection
 
 @section('links')
+    <link rel="stylesheet" href="/css/themes/light.css">
+    <script src="/js/lc_select.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="/css/register.css">
     <script src="/js/register.js"></script>
 @endsection

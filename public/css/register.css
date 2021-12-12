@@ -346,6 +346,17 @@ a {
 .form-section .section__subtitle a {
   color: #8075FF;
 }
+.form-section .section__block {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+}
+.form-section .section__icon {
+  position: absolute;
+  left: 0;
+  margin-left: 24px;
+}
 .form-section .section__error_message {
   display: block;
   max-width: 350px;
@@ -364,11 +375,7 @@ a {
   font-weight: 600;
   font-size: 16px;
   color: #333;
-  margin-top: 18px;
   transition: 0.6s ease;
-  background-image: url(/images/user.svg?239c7d782616c447f0416bed0863cd8d);
-  background-position: center left 20px;
-  background-repeat: no-repeat;
 }
 .form-section .section__input:focus {
   outline: none;
@@ -383,11 +390,10 @@ a {
 .form-section .section__input::placeholder {
   color: #E7E7E7;
 }
-.form-section .section__input:nth-child(3) {
-  background-image: url(/images/mail.svg?02ed0c6972cabe78fff69af78ff76b13);
-}
-.form-section .section__input:nth-child(4), .form-section .section__input:nth-child(5) {
-  background-image: url(/images/lock.svg?753a4ba6fbbbc2f2e24fc42ec9037adc);
+.form-section .section__select {
+  display: block;
+  max-width: 350px;
+  margin-top: 18px;
 }
 .form-section .section__button_submit {
   display: block;
