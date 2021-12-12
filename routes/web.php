@@ -48,9 +48,9 @@ Route::name('user.')->group(function(){
             return redirect('/home');
         }
 
-        $tags = DB::select('select * from field_activity');
-        $users = DB::select('select * from users');
-        return view('register', ['tags' => $tags, 'users' => $users]);
+        $field_activity_tags = DB::select('select * from field_activity');
+        $skills_tag = DB::select('select * from skills_tag');
+        return view('register', ['field_activity_tags' => $field_activity_tags, 'skills_tag' => $skills_tag]);
     })->name('register');
 
     Route::post('/register', [RegisterController::class, "save"]);
