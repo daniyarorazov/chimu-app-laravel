@@ -3,15 +3,22 @@
 
 /* container */
 .lcslt {
-    border: 1px solid #aaa;
-    background: #fafafa;
-    border-radius: 2px;
-    transition: all .25s ease;
+    display: block;
+    height: 54px;
+    border-radius: 10px;
+    border: 2px solid #E7E7E7;
+    padding-left: 71px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
 }
+
+
+
 .lcslt:not(.lcslt-disabled):hover,
 .lcslt.lcslt_dd-open,
 #lc-select-dd {
-    border-color: #8f8f8f;
+    /*border-color: #8f8f8f;*/
     background: #fefefe;
 }
 .lcslt.lcslt_dd-open {
@@ -66,12 +73,13 @@
 /* multi-option selected items */
 .lcslt-multiple {
 	font-size: 0.95rem !important;
+
 }
 .lcslt-multi-selected,
 .lcslt-multi-callout {
     padding: 3px 9px 3px 7px;
-    background: #e5e5e5;
-    color: #494949;
+    background: #E9E7FF;
+    color: #8075FF;
     border-radius: 50px;
     margin: 0 5px 5px 0;
     transition: all .3s ease;
@@ -85,14 +93,15 @@
 .lcslt:not(.lcslt-disabled) .lcslt-multi-selected:hover,
 .lcslt:not(.lcslt-disabled) .lcslt-multi-callout:hover {
     background: #ddd;
-    color: #3f3f3f; 
+    color: #3f3f3f;
 }
 .lcslt-multi-selected:before {
     padding-right: 6px;
 }
 .lcslt-placeholder {
-	color: #888;
+	color: #E7E7E7;
 	transform: scale(0.9) translate3d(-5%, -5%, 0);
+    font-size: 16px;
 }
 
 
@@ -101,6 +110,7 @@
     border-radius: 0 0 4px 4px;
     border-width: 0 1px 1px;
     border-style: solid;
+    border-color: #e5e5e5;
 	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
 	font-size: 13px;
 }
@@ -134,7 +144,7 @@
     padding: 7px 12px;
     font-size: 0.8rem;
 }
-#lc-select-dd li img { 
+#lc-select-dd li img {
     padding-right: 7px;
 }
 .lcslt-group-name {
@@ -143,22 +153,22 @@
 .lcslt-group-opts > li {
     padding-left: 12px;
 }
-.lcslt-dd-opt {   
+.lcslt-dd-opt {
     transition: all .15s ease;
     color: #6f6f6f;
 }
 #lc-select-dd li.lcslt-dd-opt:not(.lcslt-disabled):not(.lcslt-selected):hover,
-#lc-select-dd .lcslt-dd-opt-hlight {  
+#lc-select-dd .lcslt-dd-opt-hlight {
     color: #333;
     background: #d7eeff;
 }
-#lc-select-dd li.lcslt-dd-opt.lcslt-disabled {   
+#lc-select-dd li.lcslt-dd-opt.lcslt-disabled {
     background: #ededed;
     color: #777;
 }
-#lc-select-dd li.lcslt-selected {   
-    color: #fff;
-    background: #0078d7;
+#lc-select-dd li.lcslt-selected {
+    color: #8075FF;
+    background: #E9E7FF;
     text-shadow: 0 0 2px rgba(0,0,0,0.15);
 }
 #lc-select-dd li.lcslt-selected.lcslt-dd-opt-hlight {

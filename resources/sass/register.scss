@@ -14,6 +14,9 @@ a {
     display: flex;
     font-family: 'Montserrat', 'sans-serif';
 }
+
+
+
 .left-section {
     width: 695px;
     height: 100vh;
@@ -90,9 +93,6 @@ a {
     padding-top: 90px;
     padding-left: 100px;
     .section {
-
-
-
         &__title {
             display: block;
             width: 400px;
@@ -109,6 +109,19 @@ a {
             a {
                 color: #8075FF;
             }
+        }
+
+        &__block {
+            position: relative;
+            display: flex;
+            align-items: center;
+            margin-top: 18px;
+        }
+
+        &__icon {
+            position: absolute;
+            left: 0;
+            margin-left: 24px;
         }
 
         &__error_message {
@@ -131,7 +144,6 @@ a {
             font-weight: 600;
             font-size: 16px;
             color: #333;
-            margin-top: 18px;
             transition: 0.6s ease;
 
             &:focus {
@@ -143,19 +155,25 @@ a {
                 color: #E7E7E7;
             }
 
-            background-image: url("../../public/images/user.svg");
-            background-position: center left 20px;
-            background-repeat: no-repeat;
+            //background-image: url("../../public/images/user.svg");
+            //background-position: center left 20px;
+            //background-repeat: no-repeat;
 
         }
 
+        //
+        //&__input:nth-child(3) {
+        //    background-image: url("../../public/images/mail.svg");
+        //}
+        //
+        //&__input:nth-child(4), &__input:nth-child(5) {
+        //    background-image: url("../../public/images/lock.svg");
+        //}
 
-        &__input:nth-child(3) {
-            background-image: url("../../public/images/mail.svg");
-        }
-
-        &__input:nth-child(4), &__input:nth-child(5) {
-            background-image: url("../../public/images/lock.svg");
+        &__select {
+            display: block;
+            max-width: 350px;
+            margin-top: 18px;
         }
 
 
