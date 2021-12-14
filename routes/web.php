@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\SearchSystemController;
 use App\Http\Controllers\TestController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
@@ -54,6 +55,10 @@ Route::name('user.')->group(function(){
     })->name('register');
 
     Route::post('/register', [RegisterController::class, "save"]);
+
+    // List Users
+    Route::get('/search_users', [SearchSystemController::class, "searchUsers"])->name('search-users');
+
 });
 
 Route::get('/test', [TestController::class, "showTags"]);
